@@ -1,0 +1,21 @@
+body{
+    
+    font-size:20px;
+}
+
+#container{
+    max-width:1000vw;
+    
+    margin: 5px;
+    display: flex;
+    -webkit-transform-origin-z: flex;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.background {
+    background-color: green;
+    width:50rem;
+    background-image: url("img/palm.png");
+}
