@@ -1,0 +1,172 @@
+
+*{
+font-family: Arial, Verdana, sans-serif;
+text-align: center;
+cursor:smooth;      
+font-size:22px;}
+
+.logo{
+   color: #0066cc;
+   letter-spacing: 5px;
+   font-size: 38px;
+}
+
+#nav,  #feature, .about_us,  .skills,  #footer{
+    
+    margin-top: 20px;
+    padding: 10px 0px 5px 0px;
+    text-align: center;
+    
+    }
+
+    .intro{
+        
+        background-image: url('../img/background.jpg');
+        min-height: 400px;
+        background-size: cover;
+        color: #fff;
+        margin-top:auto;
+        margin-bottom: auto;
+        align-items: center;
+        
+        padding-top:160px;
+        
+    }
+    .skills{
+    clear: both;
+    min-height: 400px;
+    background-color: #fff;
+}
+
+ .skills h1{
+     color: #0099ff;
+     font-size:48px;
+ }
+ .skills h2{
+    color:#72470e;
+ }
+
+ .sites{
+    background: #eee;
+    clear: both;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+
+ .photo{
+     clear: both;
+     margin: 10px 0;
+     width: 360px;
+     background: white;
+     padding: 10px;
+     opacity: 0.7;
+     border-radius:5px;
+     border: 1px solid silver;
+     box-sizing: border-box;
+     display: flex;
+     justify-content:space-around;
+     flex-wrap:wrap;
+     transform: rotate(5deg);
+     transition: 0.3s all ease-in-out;
+ }
+ 
+ .photo img{
+flex-basis:100%;
+ }
+ .phtoto figcaption{
+     margin-top: 10px;
+ }
+
+ .photo:hover{
+     opacity:1;
+     
+     transform: scale(1.1);
+ }
+ 
+.photo:nth-child(even){
+    transform:rotate(-2deg) scale(0.8);
+}
+
+     .footer2 {
+       display: inline-grid;
+        clear: both;
+        min-height: 300px;
+        width: 100%;
+        color: #fff;
+        background-color: #c9c9c9;
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
+        padding-bottom: 20px; 
+        padding-top: 20px;
+        overflow: initial;
+     }
+    
+     .footer2 figcaption{
+         padding-top: 5px;
+         position: relative;
+         
+     }
+    
+    
+#nav{
+    background:linear-gradient(rgb(77, 143, 158), #FFFFFF);
+    color: #fff;
+}
+
+.skills figure{
+    display: inline-grid;
+}
+
+
+#feature {
+  font-size: 48px;
+ color: #fff;
+ text-align: center;
+ letter-spacing: 5px;
+}
+#feature  p{
+font-size: 28px;
+color: #0099ff;
+}
+        li{
+            display: inline;
+            padding: 5px;
+        }
+
+        #footer{
+        clear: both;
+       
+        width: 100%;
+        color: #fff;
+        background:linear-gradient(rgb(77, 143, 158), #FFFFFF)
+        }
+        .footer2 h1 {
+            clear: both;
+            color:#ffffff;
+            font-size:36px;
+            letter-spacing: 5px;
+            padding-top:25px;
+            
+        }
+       
+.row {
+   clear: both;
+    min-height: 300px;
+    font-size: 76px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+
+ #icons{
+   flex-direction: row;
+  
+   padding: 10px;
+   flex-wrap:wrap;
+   box-sizing: border-box;
+ }
+        
