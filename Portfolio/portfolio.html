@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="main.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/fontello.css">
     <link rel="stylesheet" type="text/css" href="css/jquery.tabSlideOut.css"  >
+    
     
 </head>
 <body>
@@ -23,10 +25,10 @@
 
 
         <ul>
-            <li>O mnie</li>
-            <li>Zainteresowania</li>
-            <li>Umiejętności</li>
-            <li>Projekty</li>
+            <li><a href="#footer">O mnie i pasjach</a></li>
+            <li><a href="#main">Umiejętności</a></li>
+            <li><a href="#choose">Sposób realizacji</a></li>
+            <li><a href="#projects">Projekty</a></li>
         </ul>
     </nav>
 </div>
@@ -46,7 +48,7 @@
 <main>
 </div>
 </section>
-
+     <section id="main">
     <div class="skills" class="grid_12" >
        
              <h1>Skills</h1>
@@ -97,10 +99,10 @@
         
              
         </div>
-
-    <section>
+    </section>
+    <section id="projects">
      
-        <div class= "sites">
+        <div class="sites">
        	
             <figure class="photo">
                 
@@ -138,13 +140,9 @@
                 </figcaption>
             </figure>
         </div>
-    
-
     </section>
-
-
     
-        <section>
+        <section id="choose">
             <div id="feature" >
          
                     <p> Dlaczego właśnie my ?</p>
@@ -157,15 +155,15 @@
 
                             <figure>
                                 <div class="the-icons span3" ><i class="demo-icon icon-cog"></i> <span class="i-name"></div>
-                          <figcaption>Use the new tools</figcaption>
+                          <figcaption>Nowoczesne technologie</figcaption>
                         </figure>
                         <figure>
                             <div class="the-icons span3" title="Code: 0xe801"><i class="demo-icon icon-briefcase"></i> </div>
-                            <figcaption>Profesionalist</figcaption>
+                            <figcaption>Profesjonalizm</figcaption>
                         </figure>
                         <figure>
                            <div class="the-icons span3" title="Code: 0xf0d6"><i class="demo-icon icon-money"></i> </div>
-                           <figcaption>Low Cost</figcaption>
+                           <figcaption>Niskie koszta</figcaption>
                         </figure>
                         </div>
                           
@@ -173,65 +171,70 @@
                         <div class="row">
                         <figure>
                           <div class="the-icons span3" title="Code: 0xf0e4"><i class="demo-icon icon-gauge"></i> </div>
-                          <figcaption>Speed realisation</figcaption>
+                          <figcaption>Szybka realizacja</figcaption>
                         </figure>
                         <figure>
                           <div class="the-icons span3" title="Code: 0xf29d"><i class="demo-icon icon-blind"></i></div>
-                          <figcaption>Use semantic marks</figcaption>
+                          <figcaption>Używamy semantyki</figcaption>
                         </figure>
                         <figure>
                           <div class="the-icons span3" title="Code: 0xf2b5"><i class="demo-icon icon-handshake-o"></i> </div>
                           <figcaption>
-                              We are elastic
+                              Jesteśmy elastyczni
                           </figcaption>
                         </figure>
                         </div>
                     </div>
                       
     </section>
+</main>
     
-    <section>
-        </main>
+        
 
-        <footer>
- 
-    <div class="footer2">
+        
+    <div class="footer2" >
 
 
-        <h1> A few words about me</h1>
+        <h1> Kilka słów o mnie</h1>
 
-<figure>
+<figure><img src="img/zdjęcie.jpg">
+
 
 <figcaption >
-                <p style="text-align: justify-content: flex-start;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos alias tenetur aliquid nisi itaque, </p>
-                <p style="text-align: justify-content: flex-start;">ad enim, totam optio porro dicta quia exercitationem officia iste?<br></p> Quo dignissimos possimus unde temporibus debitis!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ipsam ut quasi accusantium. 
-                Obcaecati ipsam magni quis consequuntur.
-                 Nisi reprehenderit vitae tempore iure nesciunt repudiandae, aliquam itaque eum blanditiis <quasi class="lorem"></quasi></p>
+                <p style="justify-items: center">Cześć jestem Patryk i jestem i  jako freelancer tworze strony internetowe</p>
+                <p style="justify-items: center">W wolnym czasie lubię oglądać filmy i seriale, przy pogodzie jeździć na rolkach.<br></p>
+                <sup>Moje motto życiowe brzmi "Nie zniechęcaj się, jeśli będziesz pomimo porażek robił codziennie, choć jeden krok do przodu, po wielu miesiącach 
+                dojdziesz do celu."</sup>
+                </p>
 
           
       </figcaption>
-  </figure>
+    </figure>
 </div>
             <div id="footer" class="grid_12">& copy; 2019 All rights reserved</div>
 </div>
 
-</section>
+<button onclick="topFunction()" id="myBtn"  title="Go to top"><img src="img/button.png" width="100px" height="100px"></button> 
        
 </footer>
 
+</section>
 <div id="my-tab"><span class="handle">Facebook</span>
 
 	<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 
 </div>
+
+
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/jquery.tabSlideOut.js"></script>
+<script src="js/main.js"></script>
 <script>$('#my-tab').tabSlideOut( {
         tabLocation:'right',
         action:'click',
         offset:'100px'} );
         </script>
+<a id="bottom" href="#top"></a>
 
 </body>
 </html>
